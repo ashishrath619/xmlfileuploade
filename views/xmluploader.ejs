@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>
+        <%= title %>
+    </title>
+    <link rel='stylesheet' href='/stylesheets/style.css' />
+</head>
+
+<body>
+    <h1>
+        xml file uploader
+    </h1>
+
+    <form action="/xmlrouter/uploadfile" enctype="multipart/form-data" method="post">
+        <input type="file" name="file" />
+        <input type="submit" name="submit">
+    </form>
+</body>
+
+</html>
